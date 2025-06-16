@@ -1,0 +1,36 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #2c3e50, #0b0d0f);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.nav-link {
+  color: #a0aec0 !important;
+  margin: 0 0.75rem;
+  position: relative;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #ffffff !important;
+  }
+}
+
+.active-link {
+  color: #ffffff !important;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ef4444;
+    width: 100%;
+  }
+}
+
+button {
+    color: rgb(31, 31, 31) !important;
+    border-radius: 15px !important;
+}

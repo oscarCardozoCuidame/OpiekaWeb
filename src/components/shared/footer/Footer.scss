@@ -1,0 +1,26 @@
+.footer-section {
+    .divider {
+        height: 2px;
+        background-color: #f25f5c;
+        width: 100px;
+    }
+
+    a {
+        color: #0b0d0f;
+        text-decoration: none;
+
+        &:hover {
+            color: #f25f5c;
+        }
+    }
+
+    .social-icons i {
+        font-size: 1.3rem;
+        color: #0b0d0f;
+
+        &:hover {
+            color: #f25f5c;
+        }
+    }
+
+}

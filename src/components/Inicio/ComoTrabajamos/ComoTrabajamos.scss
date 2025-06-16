@@ -1,0 +1,20 @@
+.como-trabajamos-section {
+  background: linear-gradient(to right, #2c3e50, #0b0d0f);
+  color: #ffffff;
+}
+
+.paso-icono {
+  background-color: #121e28;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  position: relative;
+}
+
+.icono-emoji {
+  font-size: 2rem;
+}
