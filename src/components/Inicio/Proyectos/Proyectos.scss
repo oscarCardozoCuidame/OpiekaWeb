@@ -1,0 +1,15 @@
+.col-lg-2-5 {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+@media (max-width: 768px) {
+  .proyectos-container {
+    padding: 0 0.75rem !important;
+
+    .col-lg-2-5 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}

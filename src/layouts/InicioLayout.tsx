@@ -4,6 +4,7 @@ import Hero from "../components/Inicio/Hero/Hero";
 import Servicios from "../components/Inicio/Servicios/Servicios";
 import SobreNosotros from "../components/Inicio/SobreNosotros/SobreNosotros";
 import ComoTrabajamos from "../components/Inicio/ComoTrabajamos/ComoTrabajamos";
+import Proyectos from "../components/Inicio/Proyectos/Proyectos";
 import "./InicioLayout.scss";
 
 export const InicioLayout = () => {
@@ -22,6 +23,10 @@ export const InicioLayout = () => {
 
         <div className="mt-5">
           <Servicios />
+        </div>
+
+        <div className="mt-5">
+          <Proyectos />
         </div>
 
         <div className="mt-5">
