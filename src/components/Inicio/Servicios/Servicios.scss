@@ -1,35 +1,27 @@
 .servicio-web-section {
   overflow-x: hidden;
 
-  .logo {
-    margin-right: 25px;
-    align-self: center;
-  }
-  
-  .web-title {
+  .servicio-container {
+    height: 600px;
+    box-sizing: content-box;
 
-    h5 {
-      font-size: 1.125rem;
-      line-height: 1.6;
+    .logo {
+      max-height: 100px;
+      align-self: center;
     }
 
-    h3 {
-      font-size: 1.75rem;
-      font-family: 'Orbitron', sans-serif;
+    .img {
+      height: 400px;
+      scale: 1/1;
+      object-fit: contain;
     }
-  }
 
-  .img {
-    height: 400px;
-    scale: 1/1;
-    object-fit: contain;
-  }
-
-  .web-text {
-    p {
-      margin-left: 100px;
-      margin-top: 25px;
-      text-align: start;
+    .web-text {
+      p {
+        margin-left: 100px;
+        margin-top: 25px;
+        text-align: start;
+      }
     }
   }
 }
@@ -39,33 +31,25 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 
-    .logo {
-      margin-right: 0;
-    }
+    .servicio-container {
+      height: 800px;
 
-    .web-title {
-      align-items: center !important;
-      gap: 0.5rem;
-
-      h1 {
-        font-size: 2.25rem;
-        line-height: 1.3;
+      .logo {
+        width: 90%;
+        align-self: center;
+        margin-right: 0;
       }
 
-      .h2 {
-        font-size: 1.75rem;
+      .web-text {
+        p {
+          padding: 0 25px;
+          margin-top: 25px;
+          margin-bottom: 15px;
+          margin-left: 0 !important;
+          font-size: 0.95rem;
+          text-align: start;
+        }
       }
-
-      img.logo {
-        width: 75px;
-      }
-    }
-
-    p {
-      margin: 0;
-      margin-bottom: 15px;
-      font-size: 0.95rem;
-      text-align: justify;
     }
   }
 }
@@ -76,6 +60,7 @@
     opacity: 0;
     transform: translate(100px, 40px);
   }
+
   to {
     opacity: 1;
     transform: translate(0, 0);
@@ -87,6 +72,7 @@
     opacity: 1;
     transform: translate(0, 0);
   }
+
   to {
     opacity: 0;
     transform: translate(-100px, 30px); // 👈 sale hacia la izquierda y abajo
