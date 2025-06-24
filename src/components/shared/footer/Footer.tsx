@@ -21,7 +21,7 @@ export default function Footer() {
         <Row className="align-items-start text-center text-lg-start">
           <Col lg={4} className="mb-4">
             <img
-              src="/public/logo.svg"
+              src="../../../../public/Logo.svg"
               alt="Logo Opieka"
               width={150}
               className="mb-3"
