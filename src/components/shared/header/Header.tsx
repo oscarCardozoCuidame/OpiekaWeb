@@ -11,7 +11,7 @@ export default function Header() {
       <Container>
         <Navbar.Brand href="#home" className="d-flex align-items-center">
           <img
-            src="../../../../public/Logo.svg"
+            src="Logo.svg"
             width="175"
             height="40"
             className="d-inline-block align-top me-2"

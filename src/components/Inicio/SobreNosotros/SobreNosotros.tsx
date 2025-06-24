@@ -1,6 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./SobreNosotros.scss";
 
+import sobreNosotros from '@/assets/img/sobreNosotros.webp';
+
 export default function SobreNosotros() {
   return (
     <section className="sobre-nosotros-section py-5">
@@ -8,7 +10,7 @@ export default function SobreNosotros() {
         <Row className="align-items-center">
           <Col md={6}>
             <img
-              src="/src/assets/img/sobreNosotros.webp"
+              src={sobreNosotros}
               alt="Equipo trabajando"
               className="img-fluid rounded shadow-sm"
             />

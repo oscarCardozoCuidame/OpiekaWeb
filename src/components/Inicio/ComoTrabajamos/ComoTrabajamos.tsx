@@ -1,6 +1,11 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import './ComoTrabajamos.scss';
 
+import breafing from '@/assets/icons/breafing.svg';
+import design from '@/assets/icons/design.svg';
+import develop from '@/assets/icons/develop.svg';
+import deploy from '@/assets/icons/deploy.svg';
+
 export default function ComoTrabajamos() {
   return (
     <section className="como-trabajamos-section py-5">
@@ -25,10 +30,10 @@ export default function ComoTrabajamos() {
 
         <Row className="text-center text-white justify-content-between mt-5 proceso-pasos">
           {[
-            { icon: 'src/assets/icons/breafing.svg', label: 'BREAFING' },
-            { icon: 'src/assets/icons/design.svg', label: 'DISEÑO' },
-            { icon: 'src/assets/icons/develop.svg', label: 'DESARROLLO' },
-            { icon: 'src/assets/icons/deploy.svg', label: 'DESPLIEGUE' },
+            { icon: breafing, label: 'BREAFING' },
+            { icon: design, label: 'DISEÑO' },
+            { icon: develop, label: 'DESARROLLO' },
+            { icon: deploy, label: 'DESPLIEGUE' },
           ].map((step, index) => (
             <Col key={index} xs={6} md={3} className="mb-4 d-flex flex-column align-items-center">
               <div className="paso-icono">
