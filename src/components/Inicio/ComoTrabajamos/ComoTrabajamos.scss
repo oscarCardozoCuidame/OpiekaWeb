@@ -3,18 +3,25 @@
   color: #ffffff;
 }
 
+.text-md-start p {
+  font-weight: 300;
+}
+
 .paso-icono {
   background-color: #121e28;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  box-shadow: -8px -8px 20px rgba(0, 255, 255, 0.15);
+
   position: relative;
 }
 
-.icono-emoji {
-  font-size: 2rem;
+.paso-icono .icons {
+  height: 70px;
+  width: 70px;
 }
+
